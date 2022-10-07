@@ -1,6 +1,15 @@
 <script>
-  import Greet from '../lib/Greet.svelte'
+	import SideDrawer from '$lib/SideDrawer.svelte';
+  import Greet from '$lib/Greet.svelte'
 </script>
 
-<h1>Welcome to SvelteKit</h1>
-<Greet />
+<div>
+  <SideDrawer />
+  <!-- <Greet /> -->
+</div>
+
+<style lang="scss">
+  div {
+    display: flex;
+  }
+</style>

@@ -1,0 +1,20 @@
+
+$container-width: 1440px;
+$off-black: #34344A;
+$off-white: #efefef;
+$pink: #E9204F;
+$blue: #19C8C5;
+$transition: all .2s ease;
+
+$primary: $pink;
+$text-color: $off-black;
+$secondary: $off-black;
+$error-red: #ee0000;
+
+$twitch-purple: #9146FF;
+$youtube-red: #FF0000;
+$twitter-blue: #1DA1F2;
+$brands: (
+  "twitch": $twitch-purple, 
+  "youtube": $youtube-red
+);
